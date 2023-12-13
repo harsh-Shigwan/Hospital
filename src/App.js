@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import {  Patient} from './pages';
+import { Doctor} from './pages';
 import Row from './pages/Row';
 import './App.css';
 
@@ -66,11 +66,11 @@ const App = () => {
 
               <Routes>
                 {/* dashboard  */}
-                <Route path="/" element={(<Patient />)} />
+                <Route path="/" element={(<Doctor />)} />
                 <Route path="/Row" element={(<Row />)} />
 
                 {/* pages  */}
-                <Route path="/Patient" element={<Patient />} />
+                <Route path="/Doctor" element={<Doctor/>} />
               </Routes>
             </div>
             <Footer />

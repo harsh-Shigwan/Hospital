@@ -6,7 +6,7 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
-        name: 'Patient',
+        name: 'Doctor',
         icon: <FiShoppingBag />,
       },
     ],
