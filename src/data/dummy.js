@@ -5,9 +5,20 @@ export const links = [
   {
     title: 'Dashboard',
     links: [
+      
+     
+      
       {
-        name: 'Doctor',
-        icon: <FiShoppingBag />,
+        name: 'Patient',
+       
+      },
+      {
+        name: 'IPD',
+       
+      },
+      {
+        name: 'OPD',
+       
       },
     ],
   },
@@ -20,7 +31,19 @@ export const liks = [
       {
         name: 'Row',
         
-      },
+      }, {
+        name: 'Row23',
+       
+      }, {
+        name: 'Row24',
+       
+      },{
+        name: 'Row25',
+        icon: <FiShoppingBag />,
+      },{
+        name: 'Row32',
+       
+      }, 
     
     ],
   },
