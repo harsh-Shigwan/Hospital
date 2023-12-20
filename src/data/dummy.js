@@ -19,6 +19,10 @@ export const links = [
       {
         name: 'OPD',
        
+      },{
+        name:"Pharmacy",
+      },{
+        name:"Pathology",
       },
     ],
   },
@@ -50,7 +54,63 @@ export const liks = [
 
 ];
 
+export const PharmacyData =[
+  {
+    bill:'A1502',
+    caseid:"PATJH01",
+    date:"14/06/25 - 7:30",
+    patient:"Raj Chavan",
+    Doctorname:"Dr Ankita Chanvan",
+    amount:"45000",
+    discount:"5%",
+    payamount:"50000",
+    balamount:"5252"
+  },
+  {
+    bill:'A1503',
+    caseid:"PATJH02",
+    date:"15/06/25 - 8:30",
+    patient:"Maynak Chavan",
+    Doctorname:"Dr Harsh Chanvan",
+    amount:"85000",
+    discount:"2%",
+    payamount:"5000",
+    balamount:"80002"
+  },
+  {
+    bill:'A1504',
+    caseid:"PATJH03",
+    date:"16/06/25 - 9:30",
+    patient:"Parth More",
+    Doctorname:"Dr Jiva Raje",
+    amount:"45000",
+    discount:"6%",
+    payamount:"509800",
+    balamount:"_"
+  },
 
+]
+
+export const Medicine = [
+  { sr:"1",
+    medname:"dolo",
+    medcomp:"multi pharma",
+    medicompo:"multiple",
+    medicat:"mild",
+    medigrp:"o",
+    unit:"A34",
+    Qty:"85.00"
+  },  {
+    sr:"2",
+    medname:"dolo5",
+    medcomp:"multix pharma",
+    medicompo:"multiple",
+    medicat:"mild",
+    medigrp:"o",
+    unit:"A34",
+    Qty:"85.00"
+  }
+]
 
 export const themeColors = [
   {

@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.0",
     "@syncfusion/ej2": "^19.4.48",
     "@syncfusion/ej2-react-calendars": "^19.4.48",
     "@syncfusion/ej2-react-charts": "^19.4.50",
@@ -46,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/react": "^4.1.1",
     "autoprefixer": "^10.4.2",
     "eslint": "^8.9.0",
     "eslint-config-airbnb": "^19.0.4",

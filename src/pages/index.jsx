@@ -14,5 +14,14 @@ export { default as Row3 } from './Row3'
 export { default as Row4 } from './Row4'
 export { default as Row5 } from './Row5'
 
+
+export { default as Pharmacy} from './Pharmacy'
+export { default as Pharm1} from './Pharm1'
+export { default as Pharm2} from './Pharm2'
+export { default as Pharm3} from './Pharm3'
+
+export { default as Pathology } from './Pathology'
+export { default as Pathology1 } from './Pathology1'
+export { default as Patho2 } from './Patho2'
 export { default as Row31 } from './Row31';
 export { default as Row32 } from './Row32';

@@ -4,12 +4,14 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Row25 , Doctor1 , Patient, Row31 , Row32} from './pages';
-import {Row20 , Row21 , IPD , OPD, Row23 , Row24 , Row1 , Row2 , Row3 , Row4 , Row5 } from './pages';
+import { Row25 , Doctor1 , Patient, Row31 , Row32 , Pharmacy ,Pharm1, Pharm2 , Pharm3 } from './pages';
+import {Row20 , Row21 , IPD , OPD, Row23 , Row24 , Row1 , Row2 , Row3 , Row4 , Row5 , Pathology , Pathology1, Patho2 } from './pages';
 
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
+import Patho3 from './pages/Patho3';
+
 
 const App = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
@@ -55,7 +57,7 @@ const App = () => {
           <div
             className={
               activeMenu
-                ? 'dark:bg-main-dark-bg  bg-main-bg min-h-screen md:ml-56 w-full  '
+                ? 'dark:bg-main-dark-bg  bg-main-bg min-h-screen md:ml-[180px] w-full  '
                 : 'bg-main-bg dark:bg-main-dark-bg  w-full min-h-screen flex-2 '
             }
           >
@@ -78,6 +80,20 @@ const App = () => {
                 {/* pages  */}
                 <Route path="/Row25" element={<Row25/>} />
                 <Route path="/Patient" element={<Patient />} />
+
+
+                <Route path="/Pharmacy" element={<Pharmacy />} />
+                <Route path="/Pharm1" element={<Pharm1 />} />
+                <Route path="/Pharm2" element={<Pharm2 />} />
+                <Route path="/Pharm3" element={<Pharm3 />} />
+
+                <Route path='/Pathology' element={<Pathology/>}/>
+                <Route path='/GenerateBill' element={<Pathology1/>} />
+                <Route path='/Pathologytest' element={<Patho2/>} />
+                <Route path='/Info' element={<Patho3/>} />
+
+
+
                 <Route path='/NewPatients' element={<Row1/>} />
                 <Route path='/TriagedPatients' element={<Row2/>} />
                  <Route path='/FinalizedPatients' element={<Row3/>} />

@@ -20,13 +20,24 @@ module.exports = {
         gainsboro: "#d9d9d9",
         dimgray: "rgba(108, 107, 107, 0.54)",
         whitesmoke: "#efefef",
+        white: "#fff",
+        darkslategray: "#11375a",
+        dodgerblue: "#0a86eb",
+        gray: "rgba(0, 0, 0, 0.5)",
+        black: "#000",
+        whitesmoke: "#eaeaea",
+        steelblue: "#135a95",
       },
+      
       fontSize: {
         14: '14px',
         sm: "14px",
         base: "16px",
         lg: "18px",
         xl: "20px",
+        lg: "18px",
+        mini: "15px",
+        inherit: "inherit",
         inherit: "inherit"
       },
       backgroundColor: {
